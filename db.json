@@ -1,0 +1,108 @@
+{
+  "superAdmins": [
+    {
+      "id": 1,
+      "name": "Faxriddin Yuldashev",
+      "email": "faxriddinyuldashev@gmail.com",
+      "password": "faxriddin1234",
+      "role": "super-admin",
+      "img": "",
+      "createdAt": "2025-10-15T12:00:00.000Z"
+    }
+  ],
+
+  "admins": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin1234",
+      "role": "admin",
+      "img": "",
+      "createdAt": "2025-10-15T12:00:00.000Z",
+      "totalCollected": 12000000
+    }
+  ],
+
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Teacher",
+      "email": "teacher@gmail.com",
+      "password": "teacher1234",
+      "role": "teacher",
+      "phoneNumber": "+998901234567",
+      "img": "",
+      "createdAt": "2025-10-15T12:00:00.000Z",
+      "courseId": 1
+    }
+  ],
+
+  "students": [
+    {
+      "id": 1,
+      "name": "Student",
+      "email": "student@gmail.com",
+      "password": "student1234",
+      "role": "student",
+      "phoneNumber": "+998931234567",
+      "img": "",
+      "createdAt": "2025-10-15T12:00:00.000Z",
+      "courseId": 1,
+      "paidAmount": 400000,
+      "totalFee": 1200000
+    }
+  ],
+
+  "courses": [
+    {
+      "id": 1,
+      "name": "Frontend React.js",
+      "category": "Dasturlash",
+      "price": 1200000,
+      "duration": "8 oy"
+    },
+    {
+      "id": 2,
+      "name": "Backend Python",
+      "category": "Dasturlash",
+      "price": 1200000,
+      "duration": "8 oy"
+    },
+    {
+      "id": 3,
+      "name": "Flutter",
+      "category": "Dasturlash",
+      "price": 1200000,
+      "duration": "8 oy"
+    },
+    {
+      "id": 4,
+      "name": "Foundation",
+      "category": "Dasturlash",
+      "price": 900000,
+      "duration": "4 oy"
+    },
+    {
+      "id": 5,
+      "name": "SMM",
+      "category": "Marketing",
+      "price": 500000,
+      "duration": "4 oy"
+    },
+    {
+      "id": 6,
+      "name": "Mobilografiya",
+      "category": "Marketing",
+      "price": 500000,
+      "duration": "4 oy"
+    },
+    {
+      "id": 7,
+      "name": "Grafik Dizayn",
+      "category": "Dizayn",
+      "price": 800000,
+      "duration": "5 oy"
+    }
+  ]
+}
