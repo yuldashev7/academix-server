@@ -8,6 +8,15 @@
       "role": "super-admin",
       "img": "",
       "createdAt": "2025-10-15T12:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Super",
+      "email": "super@gmail.com",
+      "password": "super1234",
+      "role": "super-admin",
+      "img": "",
+      "createdAt": "2025-10-15T12:00:00.000Z"
     }
   ],
 
@@ -34,7 +43,7 @@
       "phoneNumber": "+998901234567",
       "img": "",
       "createdAt": "2025-10-15T12:00:00.000Z",
-      "courseId": 1
+      "courseId": "1"
     }
   ],
 
@@ -48,7 +57,7 @@
       "phoneNumber": "+998931234567",
       "img": "",
       "createdAt": "2025-10-15T12:00:00.000Z",
-      "courseId": 1,
+      "courseId": "1",
       "paidAmount": 400000,
       "totalFee": 1200000
     }
