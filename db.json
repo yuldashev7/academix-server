@@ -59,7 +59,13 @@
       "createdAt": "2025-10-15T12:00:00.000Z",
       "courseId": "1",
       "paidAmount": 400000,
-      "totalFee": 1200000
+      "totalFee": 1200000,
+      "progress": [
+        { "lesson": "Dars 1", "progress": "70" },
+        { "lesson": "Dars 2", "progress": "40" },
+        { "lesson": "Dars 3", "progress": "90" },
+        { "lesson": "Dars 4", "progress": "55" }
+      ]
     }
   ],
 
