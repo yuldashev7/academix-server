@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "json-server": "^0.17.1",
+    "json-server-auth": "^2.1.0"
+  },
+  "scripts": {
+    "dev-server": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3"
+  }
+}

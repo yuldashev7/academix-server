@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Faxriddin Yuldashev",
+      "email": "faxriddinyuldashev@gmail.com",
+      "password": "$2b$10$Vds2zxmXMr3K/r6zFXK8EukJZYdIYJAey1T.XmJDQVe0P1eAq/X1m",
+      "role": "super-admin",
+      "phoneNumber": "+998-90-123-45-67",
+      "img": "",
+      "createdAt": "2025-10-15T12:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Super",
+      "email": "super@gmail.com",
+      "password": "$2b$10$bnIlpkOQQLMZ6JogtFQO9.IeETNddpfeKjVzplp2vj2gND6Xu2ehq",
+      "role": "super-admin",
+      "phoneNumber": "+998-90-123-45-67",
+      "img": "",
+      "createdAt": "2025-10-15T12:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "$2b$10$GrLdthUDhqw7EwwbF.liNOLPExPyiBhKtxNvscnom2Yst1BTmHlr6",
+      "role": "admin",
+      "phoneNumber": "+998-90-123-45-67",
+      "img": "",
+      "createdAt": "2025-10-15T12:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Teachers",
+      "email": "teachers@gmail.com",
+      "password": "$2a$10$iJJ1sxs7ky1sXtKMVkNxauQ834NzxKrCYdRavWdCBouLhuny7ferO",
+      "role": "teacher",
+      "phoneNumber": "+998-90-123-45-66",
+      "img": "",
+      "createdAt": "2025-10-15T12:00:00.000Z",
+      "courseId": "1"
+    },
+    {
+      "id": 5,
+      "name": "Student",
+      "email": "student@gmail.com",
+      "password": "$2b$10$gu/0OxUwlq1FAvlp4sFJGOrVf/5n6.Qj4jW2uiPDnQKqFNKgrAFme",
+      "role": "student",
+      "phoneNumber": "+998-90-123-45-67",
+      "img": "",
+      "createdAt": "2025-10-15T12:00:00.000Z",
+      "courseId": "1",
+      "paidAmount": 400000,
+      "totalFee": 1200000,
+      "progress": [
+        {
+          "lesson": "Dars 1",
+          "progress": "70"
+        },
+        {
+          "lesson": "Dars 2",
+          "progress": "40"
+        },
+        {
+          "lesson": "Dars 3",
+          "progress": "90"
+        },
+        {
+          "lesson": "Dars 4",
+          "progress": "55"
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Frontend React.js",
+      "category": "Dasturlash",
+      "price": 1200000,
+      "duration": "8 oy"
+    },
+    {
+      "id": 2,
+      "name": "Backend Python",
+      "category": "Dasturlash",
+      "price": 1200000,
+      "duration": "8 oy"
+    },
+    {
+      "id": 3,
+      "name": "Flutter",
+      "category": "Dasturlash",
+      "price": 1200000,
+      "duration": "8 oy"
+    },
+    {
+      "id": 4,
+      "name": "Foundation",
+      "category": "Dasturlash",
+      "price": 900000,
+      "duration": "4 oy"
+    },
+    {
+      "id": 5,
+      "name": "SMM",
+      "category": "Marketing",
+      "price": 500000,
+      "duration": "4 oy"
+    },
+    {
+      "id": 6,
+      "name": "Mobilografiya",
+      "category": "Marketing",
+      "price": 500000,
+      "duration": "4 oy"
+    },
+    {
+      "id": 7,
+      "name": "Grafik Dizayn",
+      "category": "Dizayn",
+      "price": 800000,
+      "duration": "5 oy"
+    }
+  ]
+}
