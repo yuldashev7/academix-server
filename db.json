@@ -31,46 +31,96 @@
       "createdAt": "2025-10-15T12:00:00.000Z"
     },
     {
-      "id": 4,
-      "name": "Teachers",
-      "email": "teachers@gmail.com",
-      "password": "$2a$10$iJJ1sxs7ky1sXtKMVkNxauQ834NzxKrCYdRavWdCBouLhuny7ferO",
+      "email": "teacher@gmail.com",
+      "password": "$2a$10$nFduWorhjiFlgTjlJrrgceJ6pqdqdSBdq3IuqvjqN8XMTPP8gf.Q6",
+      "name": "teacher",
+      "phoneNumber": "+998-90-123-23-23",
       "role": "teacher",
-      "phoneNumber": "+998-90-123-45-66",
-      "img": "",
-      "createdAt": "2025-10-15T12:00:00.000Z",
-      "courseId": "1"
+      "courseId": "1",
+      "createdAt": "2025-11-06T17:26:10.696Z",
+      "id": 6
     },
     {
-      "id": 5,
-      "name": "Student",
       "email": "student@gmail.com",
-      "password": "$2b$10$gu/0OxUwlq1FAvlp4sFJGOrVf/5n6.Qj4jW2uiPDnQKqFNKgrAFme",
+      "password": "$2a$10$HSjjjTe1pdAhYBjBd7tIF.QfMKXqnSouzkWgqb3pRLUl2Xx7fMsu2",
+      "name": "Student",
+      "phoneNumber": "+998-90-123-12-32",
       "role": "student",
-      "phoneNumber": "+998-90-123-45-67",
-      "img": "",
-      "createdAt": "2025-10-15T12:00:00.000Z",
       "courseId": "1",
-      "paidAmount": 400000,
-      "totalFee": 1200000,
-      "progress": [
-        {
-          "lesson": "Dars 1",
-          "progress": "70"
-        },
-        {
-          "lesson": "Dars 2",
-          "progress": "40"
-        },
-        {
-          "lesson": "Dars 3",
-          "progress": "90"
-        },
-        {
-          "lesson": "Dars 4",
-          "progress": "55"
-        }
-      ]
+      "paidAmount": 100000,
+      "groupId": "1",
+      "teacherId": "6",
+      "createdAt": "2025-11-11T05:16:55.014Z",
+      "id": 10
+    },
+    {
+      "email": "faxriddinyuldashev.7778@gmail.com",
+      "password": "$2a$10$mRqbYBWem.4ypOTpllv1zuYxkhXzuqM60MeqUqS7ksPIzQtBTfgwa",
+      "name": "faxriddin",
+      "phoneNumber": "+998-93-933-33-33",
+      "role": "student",
+      "courseId": "3",
+      "paidAmount": 1000000,
+      "groupId": "3",
+      "teacherId": "6",
+      "createdAt": "2025-11-13T04:24:07.769Z",
+      "id": 11
+    },
+    {
+      "email": "uiux@gmail.com",
+      "password": "$2a$10$Utee2PZSgSYyfBRAZX3ezuxxjUXrPJ/Sgy5AH.g6JiISxNRoAUal.",
+      "name": "ui ux",
+      "phoneNumber": "+998-94-945-55-25",
+      "role": "teacher",
+      "courseId": "8",
+      "createdAt": "2025-11-13T04:25:03.904Z",
+      "id": 12
+    },
+    {
+      "email": "uiuxstudent@gmail.com",
+      "password": "$2a$10$meJRd1FqLkuQJR6MRQsx2OQypjypMYQbqQmR1MabK0Dw6SjEEKTn.",
+      "name": "ui ux student",
+      "phoneNumber": "+998-97-777-77-77",
+      "role": "student",
+      "courseId": "8",
+      "paidAmount": 1200000,
+      "groupId": "4",
+      "teacherId": "12",
+      "createdAt": "2025-11-13T04:27:42.669Z",
+      "id": 13
+    },
+    {
+      "email": "frontend@gmail.com",
+      "password": "$2a$10$S9PSBHi45IGqoesI7/uene23ryN61SQxW0PFjnRPmUIJKo6gXdz7y",
+      "name": "frontend",
+      "phoneNumber": "+998-91-111-11-11",
+      "role": "student",
+      "courseId": "1",
+      "paidAmount": 1200000,
+      "groupId": "1",
+      "teacherId": "6",
+      "createdAt": "2025-11-13T05:35:55.879Z",
+      "id": 14
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Frontend N19",
+      "courseId": "1",
+      "teacherId": 6
+    },
+    {
+      "name": "asdasd123",
+      "courseId": "3",
+      "teacherId": 8,
+      "id": 3
+    },
+    {
+      "name": "ui/ux dizayn n120",
+      "courseId": 8,
+      "teacherId": 12,
+      "id": 4
     }
   ],
   "courses": [
@@ -79,49 +129,96 @@
       "name": "Frontend React.js",
       "category": "Dasturlash",
       "price": 1200000,
-      "duration": "8 oy"
+      "duration": "8 oy",
+      "fullPrice": 9600000
     },
     {
       "id": 2,
       "name": "Backend Python",
       "category": "Dasturlash",
       "price": 1200000,
-      "duration": "8 oy"
+      "duration": "8 oy",
+      "fullPrice": 9600000
     },
     {
       "id": 3,
       "name": "Flutter",
       "category": "Dasturlash",
       "price": 1200000,
-      "duration": "8 oy"
+      "duration": "8 oy",
+      "fullPrice": 9600000
     },
     {
       "id": 4,
       "name": "Foundation",
       "category": "Dasturlash",
       "price": 900000,
-      "duration": "4 oy"
+      "duration": "4 oy",
+      "fullPrice": 3600000
     },
     {
       "id": 5,
       "name": "SMM",
       "category": "Marketing",
       "price": 500000,
-      "duration": "4 oy"
+      "duration": "4 oy",
+      "fullPrice": 2000000
     },
     {
       "id": 6,
       "name": "Mobilografiya",
       "category": "Marketing",
       "price": 500000,
-      "duration": "4 oy"
+      "duration": "4 oy",
+      "fullPrice": 2000000
     },
     {
       "id": 7,
       "name": "Grafik Dizayn",
       "category": "Dizayn",
       "price": 800000,
-      "duration": "5 oy"
+      "duration": "5 oy",
+      "fullPrice": 4000000
+    },
+    {
+      "id": 8,
+      "name": "UI/UX Dizayn",
+      "category": "Dizayn",
+      "price": 700000,
+      "duration": "5 oy",
+      "fullPrice": 3500000
+    },
+    {
+      "id": 9,
+      "name": "Node.js",
+      "category": "Dasturlash",
+      "price": 1200000,
+      "duration": "8 oy",
+      "fullPrice": 9600000
+    },
+    {
+      "id": 10,
+      "name": "Digital Marketing",
+      "category": "Marketing",
+      "price": 500000,
+      "duration": "4 oy",
+      "fullPrice": 2000000
+    },
+    {
+      "id": 11,
+      "name": "Full-Stack Web Development",
+      "category": "Dasturlash",
+      "price": 1200000,
+      "duration": "8 oy",
+      "fullPrice": 9600000
+    },
+    {
+      "id": 12,
+      "name": "Kiberxavfsizlik",
+      "category": "Dasturlash",
+      "price": 1200000,
+      "duration": "8 oy",
+      "fullPrice": 9600000
     }
   ]
 }
