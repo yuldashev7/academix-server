@@ -32,75 +32,62 @@
     },
     {
       "email": "teacher@gmail.com",
-      "password": "$2a$10$nFduWorhjiFlgTjlJrrgceJ6pqdqdSBdq3IuqvjqN8XMTPP8gf.Q6",
+      "password": "$2a$10$UviIOPaCFDuOb/drhBDwtuse9WPXrCQAouj0UMMJZ3jbwwBfWwwpO",
       "name": "teacher",
-      "phoneNumber": "+998-90-123-23-23",
+      "phoneNumber": "+998-99-111-11-12",
       "role": "teacher",
       "courseId": "1",
-      "createdAt": "2025-11-06T17:26:10.696Z",
-      "id": 6
+      "createdAt": "2025-11-17T07:25:15.180Z",
+      "id": 15
+    },
+    {
+      "email": "lorem@gmail.com",
+      "password": "$2a$10$ayVcHSvM0BtdrW0oLwFLKeZ5NEWKjjI0y2/Ow6LmIbXClOH1Mex6y",
+      "name": "lorem",
+      "phoneNumber": "+998-99-912-81-26",
+      "role": "student",
+      "courseId": "1",
+      "paidAmount": 10000,
+      "groupId": "1",
+      "teacherId": "15",
+      "createdAt": "2025-11-17T07:28:33.742Z",
+      "id": 16
+    },
+    {
+      "email": "ustoz@gmail.com",
+      "password": "$2a$10$e5odKHNRYIWLb6nyFNt72u6FOLdrI7.4/l4MgYj4.ZByNOALiDQIq",
+      "name": "ustoz",
+      "phoneNumber": "+998-90-112-12-12",
+      "role": "teacher",
+      "courseId": "2",
+      "createdAt": "2025-11-17T07:35:20.013Z",
+      "id": 17
+    },
+    {
+      "email": "student1@gmail.com",
+      "password": "$2a$10$aM7sUNe4wNNaHfQwML6yeeXXxuCASScwytnoWc.x/rTeILQNE3Fui",
+      "name": "Student1",
+      "phoneNumber": "+998-90-990-00-90",
+      "role": "student",
+      "courseId": "2",
+      "paidAmount": 10000,
+      "groupId": "5",
+      "teacherId": "17",
+      "createdAt": "2025-11-17T07:38:05.294Z",
+      "id": 18
     },
     {
       "email": "student@gmail.com",
-      "password": "$2a$10$HSjjjTe1pdAhYBjBd7tIF.QfMKXqnSouzkWgqb3pRLUl2Xx7fMsu2",
-      "name": "Student",
-      "phoneNumber": "+998-90-123-12-32",
+      "password": "$2a$10$WDZksNf93579k2OPZBAt3OLnnqFcYBsXdKK0HAecG1tMRfyOMEBMm",
+      "name": "student",
+      "phoneNumber": "+998-98-998-98-91",
       "role": "student",
       "courseId": "1",
-      "paidAmount": 100000,
-      "groupId": "1",
-      "teacherId": "6",
-      "createdAt": "2025-11-11T05:16:55.014Z",
-      "id": 10
-    },
-    {
-      "email": "faxriddinyuldashev.7778@gmail.com",
-      "password": "$2a$10$mRqbYBWem.4ypOTpllv1zuYxkhXzuqM60MeqUqS7ksPIzQtBTfgwa",
-      "name": "faxriddin",
-      "phoneNumber": "+998-93-933-33-33",
-      "role": "student",
-      "courseId": "3",
       "paidAmount": 1000000,
-      "groupId": "3",
-      "teacherId": "6",
-      "createdAt": "2025-11-13T04:24:07.769Z",
-      "id": 11
-    },
-    {
-      "email": "uiux@gmail.com",
-      "password": "$2a$10$Utee2PZSgSYyfBRAZX3ezuxxjUXrPJ/Sgy5AH.g6JiISxNRoAUal.",
-      "name": "ui ux",
-      "phoneNumber": "+998-94-945-55-25",
-      "role": "teacher",
-      "courseId": "8",
-      "createdAt": "2025-11-13T04:25:03.904Z",
-      "id": 12
-    },
-    {
-      "email": "uiuxstudent@gmail.com",
-      "password": "$2a$10$meJRd1FqLkuQJR6MRQsx2OQypjypMYQbqQmR1MabK0Dw6SjEEKTn.",
-      "name": "ui ux student",
-      "phoneNumber": "+998-97-777-77-77",
-      "role": "student",
-      "courseId": "8",
-      "paidAmount": 1200000,
-      "groupId": "4",
-      "teacherId": "12",
-      "createdAt": "2025-11-13T04:27:42.669Z",
-      "id": 13
-    },
-    {
-      "email": "frontend@gmail.com",
-      "password": "$2a$10$S9PSBHi45IGqoesI7/uene23ryN61SQxW0PFjnRPmUIJKo6gXdz7y",
-      "name": "frontend",
-      "phoneNumber": "+998-91-111-11-11",
-      "role": "student",
-      "courseId": "1",
-      "paidAmount": 1200000,
       "groupId": "1",
-      "teacherId": "6",
-      "createdAt": "2025-11-13T05:35:55.879Z",
-      "id": 14
+      "teacherId": "15",
+      "createdAt": "2025-11-18T05:33:44.357Z",
+      "id": 19
     }
   ],
   "groups": [
@@ -108,7 +95,7 @@
       "id": 1,
       "name": "Frontend N19",
       "courseId": "1",
-      "teacherId": 6
+      "teacherId": 15
     },
     {
       "name": "asdasd123",
@@ -121,6 +108,12 @@
       "courseId": 8,
       "teacherId": 12,
       "id": 4
+    },
+    {
+      "name": "backent n20",
+      "courseId": 2,
+      "teacherId": 17,
+      "id": 5
     }
   ],
   "courses": [
@@ -219,6 +212,122 @@
       "price": 1200000,
       "duration": "8 oy",
       "fullPrice": 9600000
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "teacherId": "6",
+      "groupId": "1",
+      "title": "Figma",
+      "description": "URL",
+      "createdAt": "2025-11-16T10:00:00.000Z"
+    },
+    {
+      "teacherId": "6",
+      "groupId": "1",
+      "title": "Html tag turlari",
+      "createdAt": "2025-11-16T06:46:47.460Z",
+      "id": 2
+    },
+    {
+      "teacherId": "6",
+      "groupId": "1",
+      "title": "html tag turlari",
+      "createdAt": "2025-11-16T07:10:37.044Z",
+      "id": 3
+    },
+    {
+      "teacherId": "6",
+      "groupId": "1",
+      "title": "asd",
+      "createdAt": "2025-11-16T07:11:34.879Z",
+      "id": 4
+    },
+    {
+      "teacherId": "6",
+      "groupId": "1",
+      "title": "asddd",
+      "createdAt": "2025-11-17T05:57:32.052Z",
+      "id": 5
+    },
+    {
+      "teacherId": "6",
+      "groupId": "1",
+      "title": "as",
+      "createdAt": "2025-11-17T05:59:39.485Z",
+      "id": 6
+    },
+    {
+      "teacherId": "6",
+      "groupId": "1",
+      "title": "aaaa",
+      "createdAt": "2025-11-17T06:04:09.875Z",
+      "id": 7
+    },
+    {
+      "teacherId": "6",
+      "groupId": "1",
+      "title": "frontend",
+      "createdAt": "2025-11-17T06:57:37.268Z",
+      "id": 8
+    },
+    {
+      "teacherId": "6",
+      "groupId": "1",
+      "title": "asdasdasdad1",
+      "createdAt": "2025-11-17T07:08:34.482Z",
+      "id": 9
+    },
+    {
+      "teacherId": "6",
+      "groupId": "1",
+      "title": "asdasd",
+      "createdAt": "2025-11-17T07:31:18.358Z",
+      "id": 10
+    },
+    {
+      "teacherId": "6",
+      "groupId": "1",
+      "title": "frontend",
+      "createdAt": "2025-11-18T06:59:00.659Z",
+      "id": 11
+    },
+    {
+      "teacherId": "6",
+      "groupId": "1",
+      "title": "frontend",
+      "createdAt": "2025-11-18T06:59:15.278Z",
+      "id": 12
+    }
+  ],
+  "homeWorks": [
+    {
+      "teacherId": "15",
+      "groupId": "1",
+      "topicId": "10",
+      "title": "lorem ipsum",
+      "deadline": "2025-11-23T01:00",
+      "createdAt": "2025-11-17T07:31:36.610Z",
+      "id": 10
+    },
+    {
+      "teacherId": "15",
+      "groupId": "1",
+      "topicId": "10",
+      "title": "asdasdd",
+      "deadline": "2025-11-23T01:00",
+      "createdAt": "2025-11-17T07:32:38.005Z",
+      "id": 11
+    },
+    {
+      "teacherId": "15",
+      "groupId": "1",
+      "topicId": "12",
+      "title": "frontend title",
+      "deadline": "2025-11-15T01:00",
+      "createdAt": "2025-11-18T06:59:41.693Z",
+      "id": 12
     }
   ]
 }
