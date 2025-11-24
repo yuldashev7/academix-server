@@ -1,6 +1,7 @@
 {
   "name": "json-server-vercel-auth",
   "version": "1.0.0",
+  "type": "commonjs",
   "main": "server.js",
   "scripts": {
     "dev-server": "node server.js",
