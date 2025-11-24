@@ -1,12 +1,14 @@
 {
-  "devDependencies": {
-    "json-server": "^0.17.1",
-    "json-server-auth": "^2.1.0"
-  },
+  "name": "json-server-vercel-auth",
+  "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "dev-server": "node server.js"
+    "dev-server": "node server.js",
+    "start": "node server.js"
   },
   "dependencies": {
+    "json-server": "^0.17.3",
+    "json-server-auth": "^2.1.0",
     "bcryptjs": "^3.0.3"
   }
 }

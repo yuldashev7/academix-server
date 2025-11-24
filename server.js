@@ -11,6 +11,4 @@ server.db = router.db;
 server.use(auth);
 server.use(router);
 
-server.listen(3600, () => {
-  console.log('🚀 JSON Server + Auth ishlayapti: http://localhost:3600');
-});
+module.exports = server;
