@@ -23,6 +23,7 @@
     {
       "id": 3,
       "name": "admin",
+      "lastName": "admin1",
       "email": "admin@gmail.com",
       "password": "$2b$10$GrLdthUDhqw7EwwbF.liNOLPExPyiBhKtxNvscnom2Yst1BTmHlr6",
       "role": "admin",
@@ -31,32 +32,10 @@
       "createdAt": "2025-10-15T12:00:00.000Z"
     },
     {
-      "email": "teacher@gmail.com",
-      "password": "$2a$10$UviIOPaCFDuOb/drhBDwtuse9WPXrCQAouj0UMMJZ3jbwwBfWwwpO",
-      "name": "teacher",
-      "phoneNumber": "+998-99-111-11-12",
-      "role": "teacher",
-      "courseId": "1",
-      "createdAt": "2025-11-17T07:25:15.180Z",
-      "id": 15
-    },
-    {
-      "email": "lorem@gmail.com",
-      "password": "$2a$10$ayVcHSvM0BtdrW0oLwFLKeZ5NEWKjjI0y2/Ow6LmIbXClOH1Mex6y",
-      "name": "lorem",
-      "phoneNumber": "+998-99-912-81-26",
-      "role": "student",
-      "courseId": "1",
-      "paidAmount": 10000,
-      "groupId": "1",
-      "teacherId": "15",
-      "createdAt": "2025-11-17T07:28:33.742Z",
-      "id": 16
-    },
-    {
       "email": "ustoz@gmail.com",
       "password": "$2a$10$e5odKHNRYIWLb6nyFNt72u6FOLdrI7.4/l4MgYj4.ZByNOALiDQIq",
       "name": "ustoz",
+      "lastName": "ustoz-ustoz",
       "phoneNumber": "+998-90-112-12-12",
       "role": "teacher",
       "courseId": "2",
@@ -64,39 +43,56 @@
       "id": 17
     },
     {
-      "email": "student@gmail.com",
-      "password": "$2a$10$WDZksNf93579k2OPZBAt3OLnnqFcYBsXdKK0HAecG1tMRfyOMEBMm",
-      "name": "student",
-      "phoneNumber": "+998-98-998-98-91",
-      "role": "student",
-      "courseId": "1",
-      "paidAmount": 1000000,
-      "groupId": "1",
-      "teacherId": "15",
-      "createdAt": "2025-11-18T05:33:44.357Z",
-      "id": 19
+      "email": "admin2@gmail.com",
+      "password": "$2a$10$4JIEwAill9HzXNDRJly3xumVj4KqbjhP.iSzEkDUhOktnDiYAjD2W",
+      "name": "admin2",
+      "lastName": "admin24",
+      "phoneNumber": "+998-90-999-22-11",
+      "role": "admin",
+      "createdAt": "2025-11-25T11:00:07.219Z",
+      "id": 21
     },
     {
-      "email": "student1@gmail.com",
-      "password": "$2a$10$G346YUmBq8ZvqxsFX6boiOiwSFzYUQN8BcYaN/vSAuAiLoBqdjMKq",
-      "name": "student",
-      "phoneNumber": "+998-94-945-55-25",
+      "email": "backend@gmail.com",
+      "password": "$2a$10$RiA5JkswBO1jx5ljEZSCuesUszt.4/3M8byTD7CS0OgeOcfoWjozy",
+      "name": "backend",
+      "lastName": "backend12",
+      "phoneNumber": "+998-98-881-22-33",
       "role": "student",
       "courseId": "2",
-      "paidAmount": 100000,
+      "paidAmount": 900000,
       "groupId": "5",
       "teacherId": "17",
-      "createdAt": "2025-11-21T04:30:48.995Z",
-      "id": 20
+      "createdAt": "2025-11-25T12:18:05.562Z",
+      "id": 22
+    },
+    {
+      "email": "teacher@gmail.com",
+      "password": "$2a$10$qidv1Ndu8cNScskrXmMQvuV1XR1dBNHGcwgg.oBos3DkLHDndbOdW",
+      "name": "teacher",
+      "lastName": "teacher-teacher",
+      "phoneNumber": "+998-90-988-22-55",
+      "role": "teacher",
+      "courseId": "1",
+      "createdAt": "2025-11-26T07:40:54.137Z",
+      "id": 23
+    },
+    {
+      "email": "student@gmail.com",
+      "password": "$2a$10$V1orL2qH9kULJgyQFc5bDOL1ixtEIKu05RAxUmBwvXA9OvQG.wfla",
+      "name": "student",
+      "lastName": "student-student",
+      "phoneNumber": "+998-90-998-44-22",
+      "role": "student",
+      "courseId": "1",
+      "paidAmount": 1200000,
+      "groupId": "6",
+      "teacherId": "23",
+      "createdAt": "2025-11-26T07:41:54.720Z",
+      "id": 24
     }
   ],
   "groups": [
-    {
-      "id": 1,
-      "name": "Frontend N19",
-      "courseId": "1",
-      "teacherId": 15
-    },
     {
       "name": "asdasd123",
       "courseId": "3",
@@ -110,10 +106,16 @@
       "id": 4
     },
     {
-      "name": "backent n20",
+      "name": "backend n20",
       "courseId": 2,
       "teacherId": 17,
       "id": 5
+    },
+    {
+      "name": "Frontend React.js N1",
+      "courseId": 1,
+      "teacherId": 23,
+      "id": 6
     }
   ],
   "courses": [
@@ -214,114 +216,8 @@
       "fullPrice": 9600000
     }
   ],
-  "topics": [
-    {
-      "id": 1,
-      "teacherId": "6",
-      "groupId": "1",
-      "title": "Figma",
-      "description": "URL",
-      "createdAt": "2025-11-16T10:00:00.000Z"
-    },
-    {
-      "teacherId": "6",
-      "groupId": "1",
-      "title": "lorem123123",
-      "createdAt": "2025-11-23T06:30:48.539Z",
-      "id": 2
-    },
-    {
-      "teacherId": "6",
-      "groupId": "1",
-      "title": "Html",
-      "createdAt": "2025-11-23T12:51:52.569Z",
-      "id": 3
-    },
-    {
-      "teacherId": "6",
-      "groupId": "1",
-      "title": "lorem123oA",
-      "createdAt": "2025-11-23T13:28:51.434Z",
-      "id": 4
-    },
-    {
-      "teacherId": "6",
-      "groupId": "1",
-      "title": "asdlkasdlk1",
-      "createdAt": "2025-11-23T13:30:33.726Z",
-      "id": 5
-    },
-    {
-      "teacherId": "6",
-      "groupId": "1",
-      "title": "aslmdl;as",
-      "createdAt": "2025-11-23T13:34:41.077Z",
-      "id": 6
-    },
-    {
-      "teacherId": "6",
-      "groupId": "1",
-      "title": "asd,;l,123",
-      "createdAt": "2025-11-23T13:40:48.558Z",
-      "id": 7
-    }
-  ],
-  "homeWorks": [
-    {
-      "teacherId": "15",
-      "groupId": "1",
-      "topicId": "2",
-      "title": "a;slmd;alsmd123",
-      "deadline": "2025-11-23T03:15",
-      "createdAt": "2025-11-23T06:31:04.403Z",
-      "id": 11
-    },
-    {
-      "teacherId": "15",
-      "groupId": "1",
-      "topicId": "3",
-      "title": "Html haqida",
-      "deadline": "2025-11-23T02:00",
-      "createdAt": "2025-11-23T12:52:22.966Z",
-      "id": 12
-    },
-    {
-      "teacherId": "15",
-      "groupId": "1",
-      "topicId": "4",
-      "title": "loqrqwnlkn12",
-      "deadline": "2025-11-23T03:00",
-      "createdAt": "2025-11-23T13:29:03.147Z",
-      "id": 13
-    },
-    {
-      "teacherId": "15",
-      "groupId": "1",
-      "topicId": "5",
-      "title": "asdla;sdm123",
-      "deadline": "2025-11-23T03:00",
-      "createdAt": "2025-11-23T13:30:44.895Z",
-      "id": 14
-    },
-    {
-      "teacherId": "15",
-      "groupId": "1",
-      "topicId": "6",
-      "title": "aomsdom123",
-      "deadline": "2025-11-23T02:00",
-      "createdAt": "2025-11-23T13:34:52.423Z",
-      "id": 15
-    },
-    {
-      "teacherId": "15",
-      "groupId": "1",
-      "topicId": "7",
-      "title": "as;ldma;sdq22",
-      "deadline": "2025-11-23T02:00",
-      "createdAt": "2025-11-23T13:40:59.403Z",
-      "id": 16
-    }
-  ],
+  "topics": [],
+  "homeWorks": [],
   "notifications": [
     {
       "studentId": 19,
@@ -370,53 +266,29 @@
       "isRead": false,
       "createdAt": "2025-11-23T13:42:59.977Z",
       "id": 6
+    },
+    {
+      "studentId": 19,
+      "title": "Davomat Saqlandi",
+      "message": "Siz bugungi darsga qatnashdingiz",
+      "isRead": false,
+      "createdAt": "2025-11-24T16:39:55.128Z",
+      "id": 7
+    },
+    {
+      "studentId": 26,
+      "title": "Davomat Saqlandi",
+      "message": "Siz bugungi darsga qatnashdingiz",
+      "isRead": false,
+      "createdAt": "2025-11-26T06:28:50.809Z",
+      "id": 8
     }
   ],
-  "homeWorkNotifications": [
+  "homeWorkNotifications": [],
+  "contracts": [
     {
-      "groupId": 1,
-      "title": "Yangi Uy Ishi",
-      "message": "Html haqida mavzusi bo'yicha uy ishi berildi",
-      "deadline": "2025-11-23T02:00",
-      "isRead": true,
-      "createdAt": "2025-11-23T12:52:22.985Z",
-      "id": 1
-    },
-    {
-      "groupId": 1,
-      "title": "Yangi Uy Ishi",
-      "message": "loqrqwnlkn12 mavzusi bo'yicha uy ishi berildi",
-      "deadline": "2025-11-23T03:00",
-      "isRead": true,
-      "createdAt": "2025-11-23T13:29:03.232Z",
-      "id": 2
-    },
-    {
-      "groupId": 1,
-      "title": "Yangi Uy Ishi",
-      "message": "asdla;sdm123 mavzusi bo'yicha uy ishi berildi",
-      "deadline": "2025-11-23T03:00",
-      "isRead": true,
-      "createdAt": "2025-11-23T13:30:44.936Z",
-      "id": 3
-    },
-    {
-      "groupId": 1,
-      "title": "Yangi Uy Ishi",
-      "message": "aomsdom123 mavzusi bo'yicha uy ishi berildi",
-      "deadline": "2025-11-23T02:00",
-      "isRead": true,
-      "createdAt": "2025-11-23T13:34:52.448Z",
-      "id": 4
-    },
-    {
-      "groupId": 1,
-      "title": "Yangi Uy Ishi",
-      "message": "as;ldma;sdq22 mavzusi bo'yicha uy ishi berildi",
-      "deadline": "2025-11-23T02:00",
-      "isRead": false,
-      "createdAt": "2025-11-23T13:40:59.443Z",
-      "id": 5
+      "id": 1,
+      "text": "Ushbu shartnoma o‘quv markazi va o‘quvchi o‘rtasida kurs davomida ko‘rsatiladigan xizmatlar tartibini belgilaydi.\n\n1. Umumiy Qoidalar\n- O‘quvchi kursga ro‘yxatdan o‘tgan paytdan boshlab barcha ichki tartib-qoidalarga amal qilish majburiyatini oladi.\n- Markaz o‘quvchiga sifatli ta’lim berish va dars jarayonlarini tashkil qilishni o‘z zimmasiga oladi.\n\n2. To‘lov Tartibi\n- Kursning oylik narxi shartnomada ko‘rsatilgan miqdorda to‘lanadi.\n- O‘quvchi har oyning boshida to‘lovni o‘z vaqtida amalga oshirishi shart.\n- To‘lov kechiktirilganda markaz xizmat ko‘rsatishni vaqtincha to‘xtatish huquqiga ega.\n\n3. Davomat va Tartib-intizom\n- O‘quvchi darslarga o‘z vaqtida kelishi kerak.\n- Dars qoldirish sababli abonent to‘lovi qaytarilmaydi.\n- Ustozga yoki boshqa o‘quvchilarga nisbatan hurmatsizlikka yo‘l qo‘yilmaydi.\n\n4. Dars Jarayoni\n- Markaz dars jadvalini o‘zgartirish huquqiga ega, bu haqda o‘quvchilarga oldindan xabar beriladi.\n- O‘qituvchi almashtirilishi markazning ichki qaroriga ko‘ra amalga oshirilishi mumkin.\n- Darslar amaliy va nazariy shakllarda olib boriladi.\n\n5. O‘quv Materiallari\n- O‘quvchi uchun berilgan materiallar faqat o‘qish maqsadida foydalanish uchun taqdim etiladi.\n- Materiallarni tarqatish, sotish yoki uchinchi shaxslarga uzatish taqiqlanadi.\n\n6. Intellektual Mulk\n- Kurs davomida berilgan barcha video, PDF, kodlar va boshqa materiallar markaz mulki hisoblanadi.\n- Ularni ruxsatsiz tarqatish qonuniy javobgarlikka olib keladi.\n\n7. Texnika Xavfsizligi\n- Kompyuter va boshqa jihozlardan ehtiyotkorlik bilan foydalanish shart.\n- Jihozlarga zarar yetkazilgan taqdirda o‘quvchi moddiy javobgar bo‘ladi.\n\n8. Shartnoma Muddati\n- Shartnoma o‘quvchi kursni to‘liq tugatmaguncha amal qiladi.\n- O‘quvchi kursni tark etmoqchi bo‘lsa, markazga kamida 7 kun oldin xabar berishi kerak.\n\n9. Pul Qaytarish Siyosati\n- To‘lov amalga oshirilgandan keyin o‘quvchi o‘z xohishi bilan kursni tark etsa, to‘lov qaytarilmaydi.\n- Agar markaz kursni bekor qilsa, to‘lov to‘liq qaytariladi.\n\n10. Yakuniy Bandlar\n- Ushbu shartnoma tomonlarning o‘zaro kelishuvi bilan tuzilgan.\n- Nizolar kelib chiqsa, ular o‘zaro muzokara yo‘li bilan hal qilinadi.\n- Tomonlar shartnomada ko‘rsatilgan shartlarga to‘liq rozilik bildiradilar."
     }
   ]
 }
